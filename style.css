@@ -10,6 +10,8 @@
      sans-serif;
 }
 
+/*Header divs*/
+
 .header-box {
     display: flex;
     flex-direction: row;
@@ -26,10 +28,33 @@
 
 h1,
 p,
+button,
 .footer-text {
     background-color: rgb(19, 42, 117);
     color: whitesmoke;
 }
+
+/*Timer divs*/
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.timer-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*Footer divs*/
 
 .footer-box {
     display: flex;
