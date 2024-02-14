@@ -41,12 +41,22 @@ button,
     align-items: center;
     justify-content: center;
     padding: 20px;
+    flex-direction: column;
+}
+
+.timer-number {
+    justify-content: center;
+    background-color: rgb(19, 42, 117);
+    padding: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 10px;
 }
 
 .timer-box {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 button {
